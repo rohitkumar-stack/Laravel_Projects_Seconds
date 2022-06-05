@@ -1,0 +1,20 @@
+<table>
+<tr>
+<th> 
+Device
+</th>
+<th> 
+Location
+</th>
+</tr>
+@foreach($product as $data)
+<tr>
+<td>
+{{$data['device']}}
+</td>
+<td>
+{{$data['location']}}
+</td>
+</tr> 
+@endforeach
+</table>
